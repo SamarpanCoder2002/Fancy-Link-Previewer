@@ -2,7 +2,7 @@ import React from "react";
 
 const PreviewCollection = ({ linkUrl, metaData }) => {
   return (
-    <div className="mt-5 mx-5 md:mx-40 xl:mx-96 flex justify-center">
+    <div className="my-5 mx-5 md:mx-40 xl:mx-96 flex justify-center">
       <ExpandedCard
         linkUrl={linkUrl ?? "https://samarpandasgupta.com"}
         metaData={metaData}
@@ -16,7 +16,7 @@ const ExpandedCard = ({ linkUrl, metaData }) => {
 
   return (
     <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <div className="mx-h-60 overflow-hidden">
+      <div className="max-h-96 overflow-hidden">
         <a href={linkUrl}>
           <img
             className="rounded-t-lg hover:scale-125 transition-all duration-500 cursor-pointer w-full"
@@ -36,7 +36,7 @@ const ExpandedCard = ({ linkUrl, metaData }) => {
             {isEmpty ? "Welcome buddy" : metaData?.ogTitle}
           </h5>
         </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 line-clamp-3">
           {isEmpty ? "Enjoy metadata extractor" : metaData?.ogDescription}
         </p>
         <a
