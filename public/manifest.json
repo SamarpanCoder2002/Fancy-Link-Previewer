@@ -1,0 +1,28 @@
+{
+  "short_name": "Fancy Link Previewer",
+  "name": "Fancy Link Previewer",
+  "author": "Samarpan Dasgupta",
+  "version": "1.0",
+  "description": "Helps you to search and download best link custom view",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "400x400",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "400x400"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0F162B",
+  "background_color": "#0F162B",
+  "developer": {
+    "name": "Samarpan Dasgupta",
+    "url": "https://linkpreview.samarpandasgupta.com"
+  },
+  "manifest_version": 3
+}
