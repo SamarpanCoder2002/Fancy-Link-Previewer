@@ -1,6 +1,6 @@
 const API = require("./constant");
 
-exports.getUrlData = async (link) => {
+export const getUrlData = async (link) => {
   const res = await fetch(`${API.BASE_URL}/${API.GET_DATA}`, {
     method: "POST",
     headers: {
@@ -14,7 +14,7 @@ exports.getUrlData = async (link) => {
   return await res.json();
 };
 
-exports.wakeUpCaller = () => {
+export const wakeUpCaller = () => {
   fetch(`${API.BASE_URL}/${API.WAKE_UP}`, {
     method: "GET",
   });

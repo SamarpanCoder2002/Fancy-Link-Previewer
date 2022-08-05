@@ -2,7 +2,7 @@ import React from "react";
 
 const PreviewCollection = ({ linkUrl, metaData }) => {
   return (
-    <div className="mt-10 mx-5 md:mx-40 xl:mx-96 flex justify-center">
+    <div className="mt-5 mx-5 md:mx-40 xl:mx-96 flex justify-center">
       <ExpandedCard
         linkUrl={linkUrl ?? "https://samarpandasgupta.com"}
         metaData={metaData}
