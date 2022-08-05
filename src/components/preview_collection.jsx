@@ -10,8 +10,8 @@ const PreviewCollection = ({ linkUrl }) => {
 
 const ExpandedCard = ({ linkUrl }) => {
   return (
-    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 overflow-hidden">
-      <div className="mx-h-60">
+    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="mx-h-60 overflow-hidden">
         <a href={linkUrl}>
           <img
             className="rounded-t-lg hover:scale-110 transition-all duration-500 cursor-pointer w-full"
