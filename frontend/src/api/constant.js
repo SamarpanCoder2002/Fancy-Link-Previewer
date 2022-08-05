@@ -4,4 +4,4 @@ class API{
     static GET_DATA = "fetchData";
 }
 
-module.exports = API;
+export default API;

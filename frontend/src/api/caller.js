@@ -1,4 +1,4 @@
-const API = require("./constant");
+import API from "./constant";
 
 export const getUrlData = async (link) => {
   const res = await fetch(`${API.BASE_URL}/${API.GET_DATA}`, {
