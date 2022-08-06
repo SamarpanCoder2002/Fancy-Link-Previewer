@@ -5,6 +5,7 @@
 ### <p align="center"> ⭐ Fancy Link Previewer extract metadata from a website and show overview of the website with Enrich UI. </p>
 
 ### <p align="left"> [😉 Visit Site](https://linkshow.samarpandasgupta.in/) </p>
+### <p align="left"> [😉 Video Demo](https://youtu.be/w3JdvQEfugw) </p>
 
 ### <p align="center"> Show 💝 by staring this repo 😚 </p>
 
